@@ -4,10 +4,12 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 pool:
-  name: Default
+  name: default
   demands: -agent.name -equals azure-devops-agent
+
 trigger:
   - master
+
 steps:
   - task: CopyFiles@2
     displayName: 'Copy Files to: $(build.artifactstagingdirectory)/Templates'
