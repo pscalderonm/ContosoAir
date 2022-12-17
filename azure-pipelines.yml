@@ -7,7 +7,7 @@ pool:
   name: default
  # demands: -agent.name -equals azure-devops-agent
 
- trigger:
+trigger:
   - master
 steps:
   - task: Npm@1
