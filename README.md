@@ -1,5 +1,6 @@
 # This project is retired, archived, and no longer supported. You are welcome to continue to use and fork the repository.
 
+[![Build Status](https://dev.azure.com/pcalderonm/pcalderonm-ups/_apis/build/status/pscalderonm.ContosoAir?branchName=master)](https://dev.azure.com/pcalderonm/pcalderonm-ups/_build/latest?definitionId=2&branchName=master)
 
 # Microsoft.Github CI Demo
 
